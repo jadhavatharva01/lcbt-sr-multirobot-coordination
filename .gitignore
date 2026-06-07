@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+holoocean_env/
+aeronest_env/
+
+# ROS / colcon build outputs
+build/
+install/
+log/
+
+# Large HoloOcean / Unreal files
+*.pak
+*.ucas
+*.utoc
+*.uexp
+*.uasset
+*.umap
+*.uproject
+Saved/
+Intermediate/
+DerivedDataCache/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Large logs/data
+*.bag
+*.db3
+
+# Ignore most generated results by default
+results/**
+
+# Keep only selected final figures/csv summaries if manually force-added
+!results/
+!results/**/
+!results/**/*.png
+!results/**/*.pdf
+!results/**/*summary*.csv
+!results/**/*averages*.csv
+
+# Ignore raw event/trial logs
+results/**/*events*.csv
+results/**/*raw*.csv
+results/**/*trial*.csv

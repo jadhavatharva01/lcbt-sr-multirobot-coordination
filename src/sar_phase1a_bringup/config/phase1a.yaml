@@ -1,0 +1,26 @@
+/**:
+  ros__parameters:
+    use_sim_time: true
+
+    mission_area_frame: "map"
+    mission_object_count: 1
+    mission_true_object_poi_id: "poi_3"
+
+    search_search_usv_ids: ["search_usv_1"]
+    search_static_region_allocation_search_usv_1: ["region_A"]
+
+    retrieval_retrieval_usv_id: "retrieval_usv_1"
+    retrieval_pre_radius_m: 1.5
+    retrieval_crit_radius_m: 0.5
+
+    regions_ids: ["region_A"]
+
+    region_A_poi_ids: ["poi_1", "poi_2", "poi_3"]
+    region_A_waypoints_x: [0.0, 5.0, 5.0, 0.0]
+    region_A_waypoints_y: [0.0, 0.0, 5.0, 5.0]
+
+    pois_ids: ["poi_1", "poi_2", "poi_3"]
+
+    poi_1_pose_xyz: [1.0, 1.0, 0.0]
+    poi_2_pose_xyz: [2.5, 2.0, 0.0]
+    poi_3_pose_xyz: [4.0, 4.0, 0.0]

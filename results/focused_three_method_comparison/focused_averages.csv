@@ -1,0 +1,4 @@
+mode,mission_completion_time,mission_success,total_distance_energy_proxy,messages,planning_allocation_time,robots_activated,search_time_to_detection,pois_visited_before_detection,tasks_completed,winner_disagreement,pre_duplicates,crit_violations,grasp_denials,intent_blocks,heartbeat_blocks,low_confidence_blocks
+fixed_intent,16.00385914966362,1.0,42.299181456376175,18.49,4.0,2.06,5.81,5.81,1.0,0.98,1.06,0.0,1.06,0.16,0.0,0.0
+cbba_like_consensus,21.003859149663622,1.0,12.806248474865697,60.0,9.0,1.0,5.81,5.81,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ours_layered,16.70587882526858,1.0,15.43954945303537,18.93,4.671629440201481,1.105,5.81,5.81,1.0,0.98,0.105,0.0,0.105,0.43,0.685,0.0

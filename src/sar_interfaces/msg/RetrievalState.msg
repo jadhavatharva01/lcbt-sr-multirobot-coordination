@@ -1,0 +1,5 @@
+string retrieval_usv_id
+string assignment_id
+string phase
+geometry_msgs/Pose current_pose
+builtin_interfaces/Time stamp

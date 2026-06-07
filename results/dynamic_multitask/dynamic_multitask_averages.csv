@@ -1,0 +1,3 @@
+method,num_pois,num_robots,num_tasks,task_success_rate,mission_completion_time,total_distance,total_messages,route_imbalance
+independent_bid,25.0,5.0,6.0,1.0,24.00427722305093,104.5080840596283,180.0,2.38
+marginal_route_bid,25.0,5.0,6.0,1.0,24.0,92.91655536940172,180.0,2.63

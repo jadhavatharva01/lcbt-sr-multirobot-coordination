@@ -1,0 +1,7 @@
+metric,value
+appts_kept_pct,100.0
+ownership_ok_pct,100.0
+all_work_done_pct,100.0
+exec_worst_makespan_over_mean,25.13
+exec_worst_makespan_over_p95,45.84
+iso_worst_makespan_over_mean,18.6

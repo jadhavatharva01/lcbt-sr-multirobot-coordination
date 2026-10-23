@@ -1,0 +1,16 @@
+metric,line,grid,small-world
+min degree (>=2 = no blind spot),1.0,2.0,2.1
+single-death keeps team connected %,5.56,100.0,100.0
+TWO-death keeps team connected %,0.48,99.37,99.77
+algebraic connectivity lambda2,0.01,0.27,0.7
+"diameter (hops, worst news path)",35.0,10.0,5.13
+latency mean (s),181.46,179.79,199.39
+within DELTA+eps %,93.33,86.67,90.0
+redundant detection %,96.67,100.0,100.0
+total-ownership %,100.0,100.0,100.0
+chain re-weld %,100.0,100.0,100.0
+orphans grabbed forward %,62.18,100.0,97.56
+survivor travel overhead %,18.31,11.4,11.99
+prop rounds to full,26.8,9.5,12.2
+prop reach pct,100,100,100
+mesh travel overhead vs no-rdv %,64.73,185.32,224.76

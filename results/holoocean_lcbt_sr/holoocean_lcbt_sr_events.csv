@@ -1,0 +1,54 @@
+bid,count,eligible,event,messages,old_owner,poi,reason,requester,robot,task,time,winner
+,,,task_released,,,22,,,,T1,1.5,
+,5,,messages,,,,initial marginal bid,,,,1.5,
+16.579,,,task_assigned,,,22,,,,T1,1.5,r2
+,,,task_released,,,25,,,,T2,3.033,
+,5,,messages,,,,initial marginal bid,,,,3.033,
+18.124,,,task_assigned,,,25,,,,T2,3.033,r4
+,,,task_released,,,10,,,,T3,4.533,
+,5,,messages,,,,initial marginal bid,,,,4.533,
+6.75,,,task_assigned,,,10,,,,T3,4.533,r3
+,,,task_released,,,6,,,,T4,6.033,
+,5,,messages,,,,initial marginal bid,,,,6.033,
+26.025,,,task_assigned,,,6,,,,T4,6.033,r3
+,,,enter_crit,,,,,,r3,T3,6.2,
+,,,task_done,,,,,,r3,T3,6.2,
+,,,enter_crit,,,,,,r2,T1,6.433,
+,,,task_done,,,,,,r2,T1,6.433,
+,,,task_released,,,17,,,,T5,7.533,
+,5,,messages,,,,initial marginal bid,,,,7.533,
+14.522,,,task_assigned,,,17,,,,T5,7.533,r2
+,,,enter_crit,,,,,,r4,T2,8.5,
+,,,task_done,,,,,,r4,T2,8.5,
+,,,task_released,,,27,,,,T6,9.033,
+,5,,messages,,,,initial marginal bid,,,,9.033,
+6.715,,,task_assigned,,,27,,,,T6,9.033,r1
+,,,task_released,,,4,,,,T7,10.533,
+,5,,messages,,,,initial marginal bid,,,,10.533,
+20.533,,,task_assigned,,,4,,,,T7,10.533,r3
+,,,enter_crit,,,,,,r1,T6,10.7,
+,,,task_done,,,,,,r1,T6,10.7,
+,,,enter_crit,,,,,,r2,T5,11.8,
+,,,task_done,,,,,,r2,T5,11.8,
+,,,task_released,,,36,,,,T8,12.033,
+,5,,messages,,,,initial marginal bid,,,,12.033,
+33.26,,,task_assigned,,,36,,,,T8,12.033,r1
+,,,task_released,,,7,,,,T9,13.533,
+,5,,messages,,,,initial marginal bid,,,,13.533,
+32.638,,,task_assigned,,,7,,,,T9,13.533,r4
+,,,enter_crit,,,,,,r3,T7,13.7,
+,,,task_done,,,,,,r3,T7,13.7,
+,,,task_released,,,11,,,,T10,15.033,
+,5,,messages,,,,initial marginal bid,,,,15.033,
+11.239,,,task_assigned,,,11,,,,T10,15.033,r3
+,,,enter_crit,,,,,,r3,T10,18.6,
+,,,task_done,,,,,,r3,T10,18.6,
+,,,enter_crit,,,,,,r1,T8,22.533,
+,,,task_done,,,,,,r1,T8,22.533,
+,,,certification_failed,,,,,,r3,T4,23.3,
+,2,,messages,,,,scoped re-auction,,,,23.3,
+,,r3,scoped_reauction,2,r3,,,r3,,T4,23.3,r3
+,,,enter_crit,,,,,,r3,T4,23.333,
+,,,task_done,,,,,,r3,T4,23.333,
+,,,enter_crit,,,,,,r4,T9,23.833,
+,,,task_done,,,,,,r4,T9,23.833,

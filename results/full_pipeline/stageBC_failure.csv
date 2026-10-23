@@ -1,0 +1,14 @@
+metric,value
+latency_mean,204.0594798818934
+latency_p95,475.099761738476
+within_delta_eps_pct,85.83333333333333
+within_2delta_eps_pct,100.0
+redundant_pct,64.16666666666667
+false_alarms,0
+total_ownership_pct,100.0
+chain_reweld_pct,100.0
+orphans_forward_pct,64.84579504316346
+fwd_orphan_delay_mean_pct,47.985241652151586
+beh_orphan_delay_mean_pct,83.49779514319253
+worst_orphan_delay_p95_pct,130.1366392246085
+survivor_overhead_mean_pct,37.26720412399426

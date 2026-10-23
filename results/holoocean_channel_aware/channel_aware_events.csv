@@ -1,0 +1,62 @@
+time,event,robot,note
+0.0,POI_EMERGE,-,S1 @poi14
+0.0,release_assign,usv1,S1
+0.6,POI_EMERGE,-,S2 @poi13
+0.6,release_assign,usv1,S2
+1.2,POI_EMERGE,-,S3 @poi12
+1.2,release_assign,usv5,S3
+1.8,POI_EMERGE,-,S4 @poi3
+1.8,release_assign,usv4,S4
+2.4,POI_EMERGE,-,S5 @poi7
+2.4,release_assign,usv5,S5
+3.03,POI_EMERGE,-,S6 @poi1
+3.03,release_assign,usv2,S6
+3.63,POI_EMERGE,-,S7 @poi9
+3.63,release_assign,usv3,S7
+4.23,POI_EMERGE,-,S8 @poi8
+4.23,release_assign,usv4,S8
+4.83,POI_EMERGE,-,S9 @poi11
+4.83,release_assign,usv3,S9
+5.37,phiaccrual_FALSE_TKO,usv5,silence=2.3 (robot alive)
+5.43,POI_EMERGE,-,S10 @poi15
+5.43,release_assign,usv1,S10
+6.03,POI_EMERGE,-,S11 @poi2
+6.03,release_assign,usv2,S11
+6.63,POI_EMERGE,-,S12 @poi6
+6.63,release_assign,usv3,S12
+7.23,POI_EMERGE,-,S13 @poi16
+7.23,release_assign,usv5,S13
+7.83,POI_EMERGE,-,S14 @poi4
+7.83,release_assign,usv4,S14
+8.43,POI_EMERGE,-,S15 @poi5
+8.43,release_assign,usv2,S15
+9.03,POI_EMERGE,-,S16 @poi10
+9.03,release_assign,usv3,S16
+10.8,item_FOUND,usv4,poi3
+13.07,searched,usv2,poi2
+20.43,phiaccrual_FALSE_TKO,usv5,silence=3.9 (robot alive)
+20.9,item_FOUND,usv5,poi7
+21.03,phiaccrual_FALSE_TKO,usv3,silence=4.5 (robot alive)
+22.03,phiaccrual_FALSE_TKO,usv2,silence=5.5 (robot alive)
+23.27,ours_fire->RELAY_CANCEL,usv2,"beta=0.67 relays=['usv3', 'usv5'] heard->alive, hold"
+23.27,ours_fire->RELAY_CANCEL,usv5,"beta=0.67 relays=['usv3', 'usv4'] heard->alive, hold"
+23.67,searched,usv4,poi4
+25.03,searched,usv3,poi6
+26.47,item_FOUND,usv2,poi1
+27.03,ours_fire->RELAY_CANCEL,usv3,"beta=0.50 relays=['usv5', 'usv2'] heard->alive, hold"
+35.77,searched,usv4,poi8
+36.03,ours_fire->RELAY_CANCEL,usv2,"beta=0.51 relays=['usv3', 'usv5'] heard->alive, hold"
+39.6,searched,usv2,poi5
+40.03,item_FOUND,usv5,poi12
+40.53,ours_fire->RELAY_CANCEL,usv5,"beta=0.51 relays=['usv4', 'usv3'] heard->alive, hold"
+44.2,searched,usv3,poi11
+45.0,GROUND_TRUTH_FAIL,usv5,robot stopped + silent
+45.97,searched,usv1,poi15
+48.03,ours_RECOVER,usv5,beta=0.76 re-allocate
+54.4,phiaccrual_detect,usv5,(correct)
+57.6,searched,usv3,poi10
+57.73,item_FOUND,usv1,poi14
+70.63,searched,usv3,poi9
+71.33,item_FOUND,usv1,poi13
+71.93,searched,usv4,poi16
+71.93,MISSION_COMPLETE,,"all 16 POIs searched, 6 items found"

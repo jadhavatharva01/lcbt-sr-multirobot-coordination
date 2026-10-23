@@ -1,0 +1,22 @@
+simulating (N=500 trials, K=16 burst)...
+  done channel_aware_timeout
+  done ours_correlated
+  done ours_sprt_lin
+
+=== POINT ESTIMATES (full sample) ===
+ FA=0.05: channel-aware 4.33s[0.000]  bounded belief 3.76s[0.010]  sequential 3.92s[0.000]
+ FA=0.02: channel-aware 4.96s[0.000]  bounded belief 4.19s[0.155]  sequential 4.06s[0.000]
+
+=== 95% BOOTSTRAP CIs (B=4000, paired) ===
+
+ FA target = 0.05
+    channel-aware: latency 4.34s [3.85, 5.72]   miss 0.000 [0.000, 0.000]   (bracketed 100%)
+   bounded belief: latency 3.76s [3.47, 4.04]   miss 0.007 [0.000, 0.094]   (bracketed 100%)
+       sequential: latency 3.92s [3.77, 4.08]   miss 0.000 [0.000, 0.000]   (bracketed 100%)
+   --> sequential - channel-aware latency: -0.42s [-1.80, 0.05]   P(sequential faster) = 96.8%
+
+ FA target = 0.02
+    channel-aware: latency 4.98s [4.73, 7.24]   miss 0.000 [0.000, 0.000]   (bracketed 100%)
+   bounded belief: latency 4.19s [3.95, 4.41]   miss 0.154 [0.055, 0.874]   (bracketed 100%)
+       sequential: latency 4.07s [3.92, 10.47]   miss 0.000 [0.000, 0.019]   (bracketed 100%)
+   --> sequential - channel-aware latency: -0.88s [-3.14, 5.40]   P(sequential faster) = 82.5%

@@ -1,0 +1,7 @@
+a_time,live_lat_s,fcst_lat_s
+0.2,760.0,797.1
+0.4,760.0,794.9
+0.6,1052.0,787.0
+0.75,1034.0,unreached
+0.85,1320.0,unreached
+0.95,1970.0,unreached

@@ -1,0 +1,2 @@
+victim,t_f,K,num_pois,detect_latency_s,n_detectors,n_orphans,ownership_ok,appts_kept_pct,worst_makespan_over_pp,span_s,all_pois_searched,monotone_ok
+4,330,9,45,106,3,6,True,100.0,25.4,1178,True,True

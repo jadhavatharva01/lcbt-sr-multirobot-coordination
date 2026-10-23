@@ -1,0 +1,6 @@
+metric,value
+complete_global_view_pct,100.0
+data_survives_death_pct,100.0
+convergence_rounds_mean,7.0
+convergence_rounds_p95,7
+min_heartbeat_sources,2

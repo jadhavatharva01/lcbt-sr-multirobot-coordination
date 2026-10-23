@@ -1,0 +1,12 @@
+metric,line,grid
+min distinct partners (blind spot),1.0,2.0
+worst check gap (rounds),2.0,2.0
+mesh travel overhead vs no-rdv (%),45.88,113.63
+latency mean (s),184.5,228.68
+within DELTA+eps (%),90.83,80.0
+redundant detection (%),90.0,90.83
+total-ownership (%),100.0,100.0
+chain re-weld (%),100.0,100.0
+orphans grabbed forward (%),53.85,93.71
+survivor travel overhead (%),30.39,21.31
+prop rounds to full,11.5,6.4

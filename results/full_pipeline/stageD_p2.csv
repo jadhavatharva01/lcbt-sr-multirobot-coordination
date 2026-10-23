@@ -1,0 +1,5 @@
+mean_overrun_s,meeting_wins_fa_pct,task_wins_fa_pct,meeting_wins_deferred_pct
+30.0,0.0,0.0,50.5
+60.0,0.0,49.5,91.5
+120.0,0.0,90.5,97.5
+240.0,0.0,96.0,97.5

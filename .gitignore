@@ -40,22 +40,13 @@ Thumbs.db
 *.bak
 *.swp
 
-# Large logs/data
+# Large raw robot logs (not reproducible research data)
 *.bag
 *.db3
 
-# Ignore most generated results by default
-results/**
+# Local-only tool config
+.claude/settings.local.json
 
-# Keep only selected final figures/csv summaries if manually force-added
-!results/
-!results/**/
-!results/**/*.png
-!results/**/*.pdf
-!results/**/*summary*.csv
-!results/**/*averages*.csv
-
-# Ignore raw event/trial logs
-results/**/*events*.csv
-results/**/*raw*.csv
-results/**/*trial*.csv
+# results/ IS tracked: the CSVs are measurements that cost simulator time,
+# and the figures/animations are the published artifacts. Only raw robot
+# logs (above) are excluded.
